@@ -349,7 +349,11 @@ h4,
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  padding: 0 20px;
+}
+@media (min-width: 992px) {
+  .card-weather__info .details {
+    padding: 0 20px;
+  }
 }
 .card-weather__info .details .col {
   display: flex;

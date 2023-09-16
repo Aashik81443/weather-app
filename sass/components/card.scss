@@ -64,7 +64,10 @@
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 50px;
-                padding: 0 20px;
+                @include lg{
+                    padding: 0 20px;
+
+                }
 
                 .col {
                     display: flex;
