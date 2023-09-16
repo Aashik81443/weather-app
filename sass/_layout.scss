@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+    width: 100%;
+    padding: $container-padding;
+
+    @include sm {
+        max-width: $container-max-widths-sm;
+    }
+
+    @include md {
+        max-width: $container-max-widths-md;
+    }
+
+    @include lg {
+        max-width: $container-max-widths-lg;
+    }
+
+    @include xl {
+        max-width: $container-max-widths-xl;
+    }
+
+    @include xxl {
+        max-width: $container-max-widths-xxl;
+    }
+}
+
+.site-wrapper {
+  
+
+}

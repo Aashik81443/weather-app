@@ -1,0 +1,28 @@
+//fonts
+@import "./fonts/fonts.scss";
+
+@import "./reset";
+@import "./variables";
+@import "./breakpoints";
+@import "./mixins";
+@import "./base";
+@import "./layout";
+@import "./page";
+
+// Keep IE styles at the end so that it overrides everything
+
+//components
+@import "./components/button.scss";
+@import "./components/form.scss";
+@import "./components/card.scss";
+
+
+//header
+@import "./header";
+
+//pages
+@import "./pages/index.scss";
+
+
+//footer
+@import "./footer";

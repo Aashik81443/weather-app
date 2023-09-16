@@ -1,0 +1,108 @@
+body {
+  font-family: $font-family-base;
+  font-weight: $font-regular;
+  font-size: $font-base-size;
+  line-height: $font-base-line-height;
+  color: $body-color;
+  background: $body-color;
+}
+
+.pro-regular {
+  font-weight: $font-regular;
+}
+
+.strong,
+.bold,
+strong {
+  font-weight: $font-bold;
+}
+
+.italics,
+.italic {
+  font-style: italic;
+}
+
+.upper,
+.uppercase {
+  text-transform: uppercase;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.65em;
+  line-height: 0;
+  color: inherit;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: 0.65em;
+  line-height: 0;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+.h1 {
+  font-weight: $font-heavy;
+  font-size: 2rem;
+  line-height: 40px;
+
+  @include lg {
+    font-size: 40px;
+  }
+
+  @include xl {
+    font-size: 50px;
+    line-height: 80px;
+
+  }
+}
+
+h2,
+.h2 {
+  font-weight: $font-bold;
+  font-size: 1.5rem;
+  line-height: 36px;
+
+  @include lg {
+    font-size: 32px;
+  } 
+}
+
+h3,
+.h3 {
+  font-weight: $font-medium;
+  font-size: 18px;
+  line-height: 24px;
+
+  @include lg {
+    font-size: 1.5rem;
+  }
+
+  @include xl {
+    font-size: 1.75rem;
+    line-height: 36px;
+
+  }
+}
+
+h4,
+.h4 {
+  font-weight: $font-heavy;
+  font-size: 18px;
+  line-height: 22px;
+
+  @include lg {
+    font-size: 1.3125rem;
+  }
+
+  @include xl {
+    font-size: 1.5rem;
+    line-height: 38px;
+
+  }
+}
