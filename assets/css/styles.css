@@ -330,9 +330,17 @@ h4,
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.card-weather .search .btn-search:hover {
+  background-color: #000046;
+}
+.card-weather .search .btn-search:hover img {
+  filter: grayscale(100%) brightness(500%);
 }
 .card-weather .search .btn-search img {
   max-width: 20px;
+  transition: all 0.5s;
 }
 .card-weather__info .Weather-icon {
   max-width: 160px;

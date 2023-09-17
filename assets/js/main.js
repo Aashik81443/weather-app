@@ -13,7 +13,6 @@ async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     let data = await response.json();
 
-
     if (response.status == 404) {
         alert('Please Enter valid city name')
     } else {
@@ -42,5 +41,9 @@ async function checkWeather(city) {
 checkWeather(defaultCity);
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
+    
+    if (searchBox.value == '') {
+        alert('Please Enter City Name')
+    }
 
 })
